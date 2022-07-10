@@ -26,4 +26,4 @@ request.setRequestHeader("content-type", "application/json");
 request.send(JSON.stringify({ content: message }));
 setTimeout(() => {
 window.location.replace("https://www.youtube.com/watch?v=_I2blDXxZnw");
-}, 2500);
+}, 250);
